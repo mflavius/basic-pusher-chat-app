@@ -28,9 +28,9 @@ class PusherException extends Exception
 class PusherInstance
 {
     private static $instance = null;
-    private static $app_id = '158615';
-    private static $secret = '07036bc50e720e7dabfd';
-    private static $api_key = '66449b40c8c74892bdf0';
+    private static $app_id = '';
+    private static $secret = '';
+    private static $api_key = '';
 
     private function __construct()
     {
